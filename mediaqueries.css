@@ -1,0 +1,360 @@
+/* general */  
+
+
+@media screen and (max-width: 768px) {
+
+    /* header */
+
+    /* header */
+
+    /* hero  */
+    .container{
+        height: auto;
+    }
+
+    .circle-decoration,
+    .circle-decoration-small {
+        display: none;
+    }
+
+    /* navbar */
+    .navbar {
+        height: 10px;
+        width: 10px;
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        padding: 10px 0;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+    /* navbar  */
+
+
+    .hero {
+        padding: 15px;
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .cta-button {
+        font-size: 16px;
+        margin: 10px;
+        
+    }
+    .company-logo h1{
+        display: none;
+    }
+    .company-logo-1{
+        display: none;
+        
+    }
+    .parent-logo {
+        
+        position: relative; 
+        min-height: 200px; 
+        display: flex;
+    }
+    
+    .company-logo-mobile {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        padding: 10px 50px; 
+        position: absolute; /* Positions it inside the container */
+        bottom: 0; /* Sticks it to the bottom of the parent */
+        left: 0;
+        width: 100%;
+        gap: 12px;
+    }
+    
+     .prev-btn{
+        font-size: 24px;
+        /* cursor: pointer; */
+        
+     }
+
+     .next-btn{
+        font-size: 24px;
+        /* cursor: pointer; */
+     }
+    /* hero */
+
+
+    /* navbar */
+    
+    
+    /* navbar */
+
+    /* vision section */
+    .vision-box {
+        
+        flex-direction: column; 
+        padding: 10px 45px 500px 45px;
+        gap: 40px;
+    }
+    .vision h1 {
+        font-size: 1.9rem;
+        padding: 5px;
+        padding-top: 80px;
+    }
+    .box {
+        max-width: 100%; 
+        padding: 0px;
+    }
+
+    .box h1 {
+        font-size: 22px;
+    }
+
+    .box p {
+        font-size: 20px;
+    }
+/* vision section */
+
+/* digital section  */
+    .container3 {
+        height: auto;
+    }
+
+.digital h1 {
+    font-size: 2rem;
+    padding: 10px;
+    padding-top: 80px;
+}
+.digital-box{
+    padding: 10px;
+    
+}
+.box2 {
+    max-width: 100%;
+    height: 300px;
+    padding: 30px;
+}
+
+.box2 h1 {
+    font-size: 25px;
+    font-weight: bold;
+    
+    
+}
+.box2 p{
+    font-size: 15px;
+    font-weight: bold;
+    gap: 50px;
+    
+}
+.box2 button{
+    width: 100px;
+    height: 50px;
+}
+.request-box {
+    margin: 0px;
+    padding: 10px;
+ }
+
+.request p, .request p a {
+    font-size: 10px;
+}
+
+/* digital section  */
+
+/* membership */
+
+.memberships h1 {
+    font-size: 2rem;
+    padding: 15px;
+    padding-top: 50px;
+}
+
+.member-box {
+    padding: 30px 3%;
+    gap: 15px;
+}
+
+.box3 {
+    padding: 15px;
+}
+
+.box3 p {
+    font-size: 16px;
+}
+/* membership */
+
+/* video  */
+
+.container5 {
+    height: 6px;
+}
+
+.video-title {
+    font-size: 0.9rem;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.video-section {
+    
+    height: 17rem;
+}
+
+/* video */
+
+
+/* studies */
+
+.container6{
+    height: auto;
+}
+
+.studies-h h1{
+    font-size: 2rem;
+}
+
+.recent-box {
+    
+    padding: 5px;
+    background-color: #ffffffc9;
+}
+
+.text-area {
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    max-width: auto; 
+    height: auto;
+}
+
+.image-container {
+    display: none; 
+}
+
+.nav-buttons {
+    
+    margin-top: 20px;
+}
+
+/* studies */
+
+/* marketers */
+
+
+.container9{
+    height: auto;
+}
+.market-head h1 {
+    font-size: 1.9rem;
+    padding-top: 20px;
+}
+
+.market-head p {
+    padding-top: 30px 0px 0px 0px;
+    font-size: 15px;
+    
+    
+    
+}
+
+.team-profile {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+
+
+.member-name {
+    font-size: 16px;
+}
+
+/* marketers */
+
+/* blog  */
+
+.container8{
+    height: auto;
+}
+.blog h1 {
+    font-size: 1.7rem;
+    padding-top: 80px;
+}
+
+.blog-post {
+    padding: 0px;
+}
+
+.text-area-2 {
+    font-size: 16px;
+    padding: 5px;
+}
+.text-area-2 h1 ,p{
+    font-size: 15px;
+    
+}
+
+.blog-image {
+    display: none; 
+}
+
+
+/* blog  */
+
+/* footer */
+
+.footer{
+    height: auto;
+    margin-top: 50px;
+}
+.background-text {
+    font-size: 80px;
+    top: 25%;
+}
+
+.cta-text {
+    font-size: 18px;
+}
+
+.underline {
+    width: 200px;
+}
+
+.adress {
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-logo {
+    /* flex-direction: column; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social {
+    gap: 10px;
+}
+.social-media {
+    flex-direction: column;
+}
+/* footer  */
+
+}
