@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <g id="archery-target" transform="translate(1 1)">
+    <path d="M35.297 13.002C35.755 14.589 36 16.266 36 18C36 27.941 27.941 36 18 36C8.059 36 0 27.941 0 18C0 8.059 8.059 0 18 0C19.736 0 21.415 0.246 23.003 0.704" transform="translate(0 7)" id="Path" fill="none" stroke="#FFFFFF" stroke-width="2" />
+    <path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" transform="translate(8 15)" id="Oval" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" />
+    <path d="M0 23L23 0" transform="translate(18 2)" id="Path" fill="none" stroke="#DC3C3B" stroke-width="2" stroke-linecap="square" />
+    <path d="M8 6L6 0L0 6L2 12L8 14L14 8L8 6Z" transform="translate(29 0)" id="Path" fill="none" stroke="#DC3C3B" stroke-width="2" stroke-linecap="square" />
+  </g>
+</svg>
